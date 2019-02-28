@@ -12,6 +12,10 @@
         <module>tensquare_base</module>
         <module>tensquare_recruit</module>
         <module>tensquare_qa</module>
+        <module>tensquare_article</module>
+        <module>tensquare_gather</module>
+        <module>tensquare_user</module>
+        <module>tensquare_spit</module>
     </modules>
     <packaging>pom</packaging>
 
