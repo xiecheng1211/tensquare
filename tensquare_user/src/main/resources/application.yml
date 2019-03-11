@@ -10,3 +10,9 @@ spring:
     url: jdbc:mysql://192.168.157.128:3306/tensquare_user?characterEncoding=utf-8
   application:
     name: tensquare-user
+  redis:
+    host: 192.168.157.128
+  rabbitmq:
+    username: admin
+    host: 192.168.157.128
+    password: admin

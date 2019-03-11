@@ -9,13 +9,19 @@
         <module name="tensquare_article" />
         <module name="tensquare_base" />
         <module name="tensquare_common" />
+        <module name="tensquare_eureka" />
+        <module name="tensquare_friend" />
         <module name="tensquare_gather" />
+        <module name="tensquare_manager" />
         <module name="tensquare_qa" />
         <module name="tensquare_recruit" />
         <module name="tensquare_spit" />
         <module name="tensquare_user" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="tenquare_sms" target="1.5" />
+      <module name="tensquare_search" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
