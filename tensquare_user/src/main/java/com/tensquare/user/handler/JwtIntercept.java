@@ -20,7 +20,7 @@ public class JwtIntercept implements HandlerInterceptor {
 
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
-        String auth = request.getHeader("Authority");
+        String auth = request.getHeader("Authorization");
 
         if(auth !=null && auth.startsWith("Bearer ")){
             String adstr = auth.substring(7);

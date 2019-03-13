@@ -31,6 +31,8 @@
         <module>tensquare_qa</module>
         <module>tensquare_friend</module>
         <module>tensquare_manager</module>
+        <module>tensquare_web</module>
+        <module>tensquare_config</module>
     </modules>
     <packaging>pom</packaging>
 
